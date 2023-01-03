@@ -1,0 +1,261 @@
+:root {
+    --cream: #EBEDC8;
+    --gray-green: #9AB5C1;
+    --purple: #74698C;
+    --orange: #C1867B;
+    --gray: #D9D9D9;
+    --dark: #2F2C35;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cream);
+    font-family: "Roboto", "sans-serif";
+    color: var(--dark);
+    margin: 0;
+}
+
+nav{
+    height: 94px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+box-shadow: 0px 8px 15px 5px rgba(0, 0, 0, 0.15);
+    z-index: 200;
+}
+
+nav .logo{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    height: 100%;
+}
+
+.logo{
+    width: 200px;
+    height: 56px;
+    left: 92px;
+    top: 19px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    text-decoration: none;
+}
+
+.teamprofile .teamtitle{
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 112px;
+    top: 241px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 56px;
+}
+
+.outter-box{
+    position: absolute;
+    width: 305px;
+    height: 42px;
+    left: 268px;
+    top: 366px;
+    
+    background: #9AB5C1;
+    border-radius: 25px;
+}
+
+.outter-box > p{
+   
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+
+    
+    color: #000000;
+}
+
+.inner-box{
+    position: absolute;
+    width: 178.97px;
+    height: 42px;
+    left: 394.03px;
+    top: 366px;
+    
+    background: #D9D9D9;
+    border-radius: 25px;
+}
+
+.inner-box > p{
+    width: auto;
+    height: auto;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: auto;
+    text-align: center;
+    
+    
+    color: #000000;
+    
+}
+.teamprofile .intro {
+    position: absolute;
+    width: 305px;
+    height: 42px;
+    left: 225px;
+    top: 330px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+}
+
+.vinh .left{
+    position: absolute;
+    width: 435px;
+    height: 435px;
+    left: 112px;
+    top: 532px;
+
+    background: #D9D9D9;
+    border-radius: 25px;
+}
+.vinh .right{
+    position: absolute;
+    width: 275px;
+    height: 166px;
+    left: 742px;
+    top: 584px;
+}
+
+.mai .left{
+    position: absolute;
+    width: 275px;
+    height: 166px;
+    left: 198px;
+    top: 1169px;
+}
+
+.mai .right{
+    position: absolute;
+    width: 435px;
+    height: 435px;
+    left: 742px;
+    top: 1117px;
+    
+    background: #D9D9D9;
+    border-radius: 25px;
+}
+
+.thai .left{
+    position: absolute;
+    width: 435px;
+    height: 435px;
+    left: 108px;
+    top: 1702px;
+    
+    background: #D9D9D9;
+    border-radius: 25px;
+}
+
+.thai .right{
+    position: absolute;
+    width: 275px;
+    height: 166px;
+    left: 733px;
+    top: 1754px;
+    
+}
+
+.kien .left{
+    position: absolute;
+    width: 275px;
+    height: 166px;
+    left: 194px;
+    top: 2339px;
+}
+
+.kien .right{
+    position: absolute;
+    width: 435px;
+    height: 435px;
+    left: 738px;
+    top: 2287px;
+    
+    background: #D9D9D9;
+    border-radius: 25px;
+}
+
+.pdtitlebox{
+    position: absolute;
+    width: 867px;
+    height: 100px;
+    left: 287px;
+    top: 2873px;
+    
+    background: #9AB5C1;
+    border-radius: 25px;
+}
+.pdtitlebox .pdtitle{
+    padding-top: 10px;
+    text-align: center;
+    
+}
+
+.ellipse1{
+    position: absolute;
+    width: 710px;
+    height: 468px;
+    left: 367px;
+    top: 3126px;
+    border-radius: 50%;
+    
+    background: #D9D9D9;
+}
+
+.ellipse1 > h2{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+}
+    
+    
+
+.overview-content-box{
+    position: absolute;
+    width: 1093px;
+    height: 1000px;
+    left: 174px;
+    top: 3237px;
+    
+    background: #74698C;
+    border: 1px solid #000000;
+    border-radius: 25px;
+}
+
+.overview-content-box .overview-content{
+    padding-top: 30px;
+    margin: auto;
+    text-align: center;
+    left: 288px;
+    top: 3360px;
+    width: 700px;
+    color: #FFFFFA;
+}
