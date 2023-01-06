@@ -140,5 +140,3 @@ function consoleText(words, id, colors) {
     }
   }, 400)
 }
-
-// Project Description Effect

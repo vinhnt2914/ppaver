@@ -1,0 +1,115 @@
+.skills{
+    margin-left: 20%;
+    width: 900px;
+}
+.skills .skills-title{
+    margin-top: 10%;
+    color: black;
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: x-large;
+    text-shadow: 3px 2px 2px rgba(251, 12, 12,1), 0px -1px 3px rgba(12, 79, 251,.5),-3px 0px 2px rgba(52, 251, 12, 1);
+  animation: chromaticMove 4500ms ease infinite,pulse ease 200ms  infinite;
+}
+  
+@keyframes gradientMove { 
+    0%{background-size: 100% 4px}
+    50%{background-size: 100% 2px}
+    100%{background-size: 100% 4px}
+}
+  
+@keyframes pulse { 
+    0%{ opacity:.9;transform: skewX(.5deg);}
+    25%{ opacity:1;}
+    50%{opacity:.9;}
+    75%{ opacity:1; transform:skewX(.5deg);}
+    100%{opacity:.9;}
+}
+@keyframes chromaticMove { 
+    0%{text-shadow: 3px 2px 2px rgba(251, 12, 12,1), 0px -1px 3px rgba(12, 79, 251,.5),0px 0px -2px rgba(52, 251, 12, 1);}
+    50%{text-shadow: 3px 2px 2px rgba(251, 12, 12,1), 0px -1px 3px rgba(12, 79, 251,.5),-3px 2px 3px rgba(52, 251, 12, 1);}
+    100%{text-shadow: 3px 2px 2px rgba(251, 12, 12,1), 0px -1px 3px rgba(12, 79, 251,.5),2px -1px 2px rgba(52, 251, 12, 1);}
+}
+  
+.skills .skills-content{
+    margin-top: 10%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.navbar {
+
+    display: flex;
+    
+    align-items: center;
+    
+    justify-content: space-between;
+    
+    padding: 20px;
+    
+    background-color: teal;
+    
+    color: #fff;
+  
+    }
+    
+  .menu a { 
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .logo {
+    font-size: 32px; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    /* identical to box height */
+    
+    color: #F6FFFF;
+  }
+  
+  .logo a{
+    color: #fff;
+    text-decoration: none;
+  }
+    
+    /* NAVBAR MENU */
+    
+  .menu {
+    padding-right: 40px;
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+  }
+  
+  .logo a:hover{
+    color: #4c9e9e;
+    transition: ease 0.3s;
+  }
+  .menu a:hover { 
+    background-color: #4c9e9e; 
+    border-radius: 5px; 
+    transition: 0.3s ease;
+  }
+
+  a button{
+    margin-left: 45%;
+    width: 150px;
+    height: 100px;
+    font-size: large;
+    background-color: white;
+    border-radius: 20px;
+    
+}
+
+button:hover{
+    width: 155px;
+    height: 105px;
+    background-color: bisque;
+    transition: ease-out 0.5s;
+}
