@@ -1,4 +1,6 @@
-
+body{
+  margin: 0;
+  }
   
   .outcomes .loader{
     position: absolute;
@@ -104,8 +106,7 @@
 }
 
 button:hover{
-    width: 155px;
-    height: 105px;
-    background-color: bisque;
-    transition: ease-out 0.5s;
+  color: white;
+  background-color: black;
+  transition: ease 0.7s;
 }

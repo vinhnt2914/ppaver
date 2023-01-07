@@ -2,6 +2,10 @@
 .hidden {
   opacity:0;
 }
+
+body{
+margin: 0;
+}
 .groupreflect-title {
     margin-top: 10%;
     margin-left: 35%;
@@ -79,15 +83,15 @@
   
   }
   a button{
-    margin-top: 30%;
+    margin-top: 40%;
     margin-left: 45%;
     width: 150px;
     height: 100px;
     font-size: large;
     background-color: white;
     border-radius: 20px;
-    
 }
+
 
 button:hover{
     width: 155px;

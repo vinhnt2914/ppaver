@@ -186,7 +186,7 @@ body {
 }
 
 .vinh .left{
-  margin-left: 20%;
+  margin-left: 15%;
   width: 435px;
   height: 435px;
   
@@ -195,7 +195,7 @@ body {
 }
 
 .vinh .right{
-  width: 450px;
+  width: 435px;
   margin-top: -25%;
   margin-left: 60%;
 }
@@ -206,8 +206,8 @@ body {
 
 .mai .left{
   margin-top: -25%;
-  margin-left: 21%;
-  width: 450px;
+  margin-left: 15%;
+  width: 435px;
 }
 
 .mai .right{
@@ -223,7 +223,7 @@ body {
 }
 
 .thai .left{
-  margin-left: 20%;
+  margin-left: 15%;
   width: 435px;
   height: 435px;
 
@@ -232,7 +232,7 @@ body {
 }
 
 .thai .right{
-  width: 450px;
+  width: 435px;
   margin-top: -25%;
   margin-left: 60%;
 }
@@ -250,9 +250,9 @@ body {
 }
 
 .kien .left{
-  margin-left: 21%;
+  margin-left: 15%;
   margin-top: -25%;
-  width: 450px;
+  width: 435px;
 
 }
 
