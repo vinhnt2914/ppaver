@@ -175,7 +175,7 @@ margin: 0;
   .plans{
     width: 900px;
     height: auto;
-    padding-top: 10%;
+    padding-top: 5%;
     padding-left: 20%;
   }
   
@@ -208,7 +208,7 @@ margin: 0;
   .roles{
     width: 900px;
     height: auto;
-    padding-top: 10%;
+    padding-top: 5%;
     padding-left: 20%; 
   }
   
@@ -240,7 +240,7 @@ margin: 0;
   .scopes{
     width: 900px;
     height: auto;
-    padding-top: 10%;
+    padding-top: 5%;
     padding-left: 20%;
   }
   
@@ -273,7 +273,7 @@ margin: 0;
   .tools{
     width: 900px;
     height: auto;
-    padding-top: 10%;
+    padding-top: 5%;
     padding-left: 20%;
   }
   
@@ -304,7 +304,7 @@ margin: 0;
   .test{
     width: 900px;
     height: auto;
-    padding-top: 10%;
+    padding-top: 5%;
     padding-left: 20%;
   }
   
@@ -335,7 +335,7 @@ margin: 0;
   .risks{
     width: 900px;
     height: auto;
-    padding-top: 10%;
+    padding-top: 5%;
     padding-left: 20%;
   }
   
@@ -366,7 +366,7 @@ margin: 0;
   .commu{
     width: 900px;
     height: auto;
-    padding-top: 10%;
+    padding-top: 5%;
     padding-left: 20%;
   }
   
@@ -402,6 +402,7 @@ margin: 0;
 
 
 a button{
+    margin-top: 10%;
     margin-left: 45%;
     width: 150px;
     height: 100px;
@@ -412,10 +413,9 @@ a button{
 }
 
 button:hover{
-    width: 155px;
-    height: 105px;
-    background-color: bisque;
-    transition: ease-out 0.5s;
+  color: white;
+  background-color: black;
+  transition: ease 0.7s;
 }
 
 .navbar {
@@ -459,6 +459,7 @@ button:hover{
   /* NAVBAR MENU */
   
 .menu {
+  font-family: 'Poppins';
   padding-right: 40px;
   display: flex;
   gap: 30px;

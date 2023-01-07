@@ -24,7 +24,30 @@ margin: 0;
     top:-0.14em;
     left:10px;
 }
-
+.vinh{
+  margin-top: 30%;
+  margin-left: 25%;
+  width: 800px;
+  font-family: 'Poppins';
+}
+.thai{
+  margin-top: 10%;
+  margin-left: 25%;
+  width: 800px;
+  font-family: 'Poppins';
+}
+.kien{
+  margin-top: 10%;
+  margin-left: 25%;
+  width: 800px;
+  font-family: 'Poppins';
+}
+.mai{
+  margin-top: 10%;
+  margin-left: 25%;
+  width: 800px;
+  font-family: 'Poppins';
+}
 .navbar {
 
     display: flex;
@@ -66,6 +89,7 @@ margin: 0;
     /* NAVBAR MENU */
     
   .menu {
+    font-family: 'Poppins';
     padding-right: 40px;
     display: flex;
     gap: 30px;
@@ -83,7 +107,7 @@ margin: 0;
   
   }
   a button{
-    margin-top: 40%;
+    margin-top: 10%;
     margin-left: 45%;
     width: 150px;
     height: 100px;
@@ -94,8 +118,7 @@ margin: 0;
 
 
 button:hover{
-    width: 155px;
-    height: 105px;
-    background-color: bisque;
-    transition: ease-out 0.5s;
+  color: white;
+  background-color: black;
+  transition: ease 0.7s;
 }

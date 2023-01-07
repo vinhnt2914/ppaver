@@ -85,6 +85,7 @@ body{
     /* NAVBAR MENU */
     
   .menu {
+    font-family: 'Poppins';
     padding-right: 40px;
     display: flex;
     gap: 30px;
@@ -102,6 +103,7 @@ body{
   }
 
   a button{
+    margin-top: 10%;
     margin-left: 45%;
     width: 150px;
     height: 100px;

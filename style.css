@@ -60,6 +60,7 @@ body {
   /* NAVBAR MENU */
   
 .menu {
+  font-family: 'Poppins';
   padding-right: 40px;
   display: flex;
   gap: 30px;
@@ -196,7 +197,7 @@ body {
 
 .vinh .right{
   width: 435px;
-  margin-top: -25%;
+  margin-top: -30%;
   margin-left: 60%;
 }
 
@@ -233,7 +234,7 @@ body {
 
 .thai .right{
   width: 435px;
-  margin-top: -25%;
+  margin-top: -30%;
   margin-left: 60%;
 }
 
